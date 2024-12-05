@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--START NAVBAR-->
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+            <div class="container">
+                <a href="#"><i class="fa fa-user-secret" aria-hidden="true"></i></a>
+                <a class="navbar-brand" href="#">Dokan Shop</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+ 
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active ">
+                            <a class="nav-link def" href="./home.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+ 
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#latest-products">Last products</a>
+                        </li>
+ 
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#deal">Top deals</a>
+                        </li>
+ 
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./log in.html">Log in</a>
+                        </li>
+ 
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./about us.html">About Us</a>
+                                <a class="dropdown-item" href="./Men's.html">Men's</a>
+                                <a class="dropdown-item" href="./Women's.html">Women's</a>
+                                <a class="dropdown-item" href="./Kids's.html">Kids's</a>
+                                <a class="dropdown-item" href="./Accessories.html">Accessories</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="./Contact.html">Contact Us</a>
+                            </div><!--/.dropdown-menu-->
+                        </li><!--dropdown-->
+                    </ul><!--/.navbar-nav-->
+                </div><!--/.collapse-->
+            </div><!--/.container-->
+        </nav><!--/nav-->
+
+        <div class="container">
+            <div class="box8">
+                <h1>Registration Form</h1>
+                <form>
+                    <div class="form-row num1">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">First Name :</label>
+                            <input type="text" class="form-control">
+                        </div><!--/.form-group-->
+
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Last Name :</label>
+                            <input type="text" class="form-control" id="inputLastName4">
+                        </div><!--/.form-group-->
+                    </div><!--/.num1-->
+
+                    <div class="form-row num2">
+                        <div class="form-group col-md-6">
+                            <label for="inputBirhDate">Birhtdate :</label>
+                            <input type="date" class="form-control" id="inputBirhDate">
+                        </div><!--/.form-group-->
+
+                        <div class="form-groub col-md-6">
+                            <label for="inputGender">Gender :</label>
+                            <br>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline1" name="customRadioInline" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline1">Male</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline2">Female</label>
+                            </div>
+                        </div><!--/.form-group-->
+                    </div><!--/.num2-->
+
+                    <div class="form-row num3">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email :</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div><!--/.form-group-->
+
+                        <div class="form-group col-md-6">
+                            <label for="inputMobileNumber">Mobile Number :</label>
+                            <input type="tel" class="form-control" id="inputMobileNumber">
+                        </div><!--/.form-group-->
+                    </div><!--/.num3-->
+
+                    <div class="countries">
+                        <label>Select Your Country :</label>
+                        <br>
+                        <input list="countries" required spellcheck="false">
+                        <datalist id="countries">
+                            <option value="Alexandria"></option>
+                            <option value="Aswan"></option>
+                            <option value="Asyut"></option>
+                            <option value="Beheira"></option>
+                            <option value="Bani-Suef"></option>
+                            <option value="Cairo"></option>
+                            <option value="Dakahlia"></option>
+                            <option value="Damietta"></option>
+                            <option value="Faiyum"></option>
+                            <option value="Gharbia"></option>
+                            <option value="Giza"></option>
+                            <option value="Ismailia"></option>
+                            <option value="Kafr El Sheikh"></option>
+                            <option value="Luxor"></option>
+                            <option value="Matruh"></option>
+                            <option value="Minya"></option>
+                            <option value="Monufia"></option>
+                            <option value="New Valley"></option>
+                            <option value="North Sinai"></option>
+                            <option value="Port Said"></option>
+                            <option value="Qalyubia"></option>
+                            <option value="Qena"></option>
+                            <option value="Red Sea"></option>
+                            <option value="Sharqia"></option>
+                            <option value="Sohag"></option>
+                            <option value="South Sinai"></option>
+                            <option value="Suez"></option>
+                        </datalist>
+                    </div><!--/.countries-->
+                    
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">By signing up, you agree to the <a href="#">Terms Of Service</a><br>
+                            and <a href="#">Privacy Policy,</a> including Cookie Use.
+                        </label>
+                    </div><!--/.custom-checkbox-->
+
+                    <button type="submit" class="btn btn1">Reset</button>
+                    <br>
+                    <button type="submit" class="btn btn2">Sign Up</button>
+                </form>
+            </div><!--/.box8-->
+        </div><!--/.container-->
+
+        <!--START FOOTER SECTION-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="box box1">
+                        <i class="fa fa-user-secret" aria-hidden="true"></i>
+                        <h2>Dokan Shop</h2>
+                    </div><!--/.box1-->
+
+                    <div class="box box2">
+                        <h4>Shopping & Categories</h4>
+                        <br>
+                        <p><a href="./Men's.html">Men's shopping</a></p>
+                        <br>
+                        <p><a href="./Women's.html">Women's shopping</a></p>
+                        <br>
+                        <p><a href="./Kids's.html">Kids's shopping</a></p>
+                        <br>   
+                        <p><a href="./Accessories.html">Accessories</a></p>
+                    </div><!--/.box2-->
+
+                    <div class="box box3">
+                        <h4>Useful Links</h4>
+                        <br>
+                        <p><a href="./home.html">Home Page</a></p>
+                        <br>
+                        <p><a href="./about us.html">About Us</a></p>
+                        <br>
+                        <p><a href="./Contact.html">Contact</a></p>
+                    </div><!--/.box3-->
+
+                    <div class="box box4">
+                        <h4>Help & Information</h4>
+                        <br>
+                        <p><a href="#">Help</a></p>
+                        <br>
+                        <p><a href="#">FAQ'S</a></p>
+                        <br>
+                        <p><a href="#">Track Your Shopping</a></p>
+                        
+                    </div><!--/.box4-->
+                </div><!--row-->
+
+                <div class="box5">
+                    <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 
+                        2022 DokanShop Co., Ltd. All Rights Reserved.
+                    </p>
+    
+                    <div class="icon">
+                        <a href="https://ar-ar.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div><!--/.icon-->
+                </div><!--/.box5-->
+                
+            </div><!--/.container-->
+        </div><!--/.footer-->
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </body>
+</html>
